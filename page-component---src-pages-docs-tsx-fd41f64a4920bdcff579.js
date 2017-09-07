@@ -5276,7 +5276,7 @@ webpackJsonp([3],{
 	        };
 	    }
 	    render() {
-	        return React.createElement("div", { id: 'docs-nav' }, React.createElement(List_1.List, null, React.createElement(List_1.ListItem, { primaryText: "Home", containerElement: React.createElement(gatsby_link_1.default, { to: "/support/" }) }), React.createElement(List_1.ListItem, { primaryText: "Inbox", leftIcon: React.createElement(inbox_1.default, null), initiallyOpen: true, primaryTogglesNestedList: true, nestedItems: [React.createElement(List_1.ListItem, { key: 1, primaryText: "Starred", leftIcon: React.createElement(grade_1.default, null) }), React.createElement(List_1.ListItem, { key: 2, primaryText: "Sent Mail", leftIcon: React.createElement(send_1.default, null), disabled: true, nestedItems: [React.createElement(List_1.ListItem, { key: 1, primaryText: "Drafts", leftIcon: React.createElement(drafts_1.default, null) })] }), React.createElement(List_1.ListItem, { key: 3, primaryText: "Inbox", leftIcon: React.createElement(inbox_1.default, null), open: this.state.open, onNestedListToggle: this.handleNestedListToggle, nestedItems: [React.createElement(List_1.ListItem, { key: 1, primaryText: "Drafts", leftIcon: React.createElement(drafts_1.default, null) })] })] })));
+	        return React.createElement("div", { id: 'docs-nav' }, React.createElement(List_1.List, null, React.createElement(List_1.ListItem, { primaryText: "Home", containerElement: React.createElement(gatsby_link_1.default, { to: "/support/" }) }), React.createElement(List_1.ListItem, { primaryText: "Inbox", leftIcon: React.createElement(inbox_1.default, null), initiallyOpen: true, nestedItems: [React.createElement(List_1.ListItem, { key: 1, primaryText: "Starred", leftIcon: React.createElement(grade_1.default, null) }), React.createElement(List_1.ListItem, { key: 2, primaryText: "Sent Mail", leftIcon: React.createElement(send_1.default, null), disabled: true, nestedItems: [React.createElement(List_1.ListItem, { key: 1, primaryText: "Drafts", leftIcon: React.createElement(drafts_1.default, null) })] }), React.createElement(List_1.ListItem, { key: 3, primaryText: "Inbox", leftIcon: React.createElement(inbox_1.default, null), open: this.state.open, onNestedListToggle: this.handleNestedListToggle, nestedItems: [React.createElement(List_1.ListItem, { key: 1, primaryText: "Drafts", leftIcon: React.createElement(drafts_1.default, null) })] })] })));
 	    }
 	}
 	exports.default = DocsNav;
@@ -5301,4 +5301,4 @@ webpackJsonp([3],{
 /***/ })
 
 });
-//# sourceMappingURL=page-component---src-pages-docs-tsx-0faeaab2b72f488ec845.js.map
+//# sourceMappingURL=page-component---src-pages-docs-tsx-fd41f64a4920bdcff579.js.map

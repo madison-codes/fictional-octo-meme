@@ -1,4 +1,4 @@
-webpackJsonp([1,2],{
+webpackJsonp([2],{
 
 /***/ "./node_modules/bowser/src/bowser.js":
 /***/ (function(module, exports, __webpack_require__) {
@@ -5687,6 +5687,7 @@ webpackJsonp([1,2],{
 	const gatsby_link_1 = __webpack_require__("./node_modules/gatsby-link/index.js");
 	const React = __webpack_require__("./node_modules/react/react.js");
 	const MuiThemeProvider_1 = __webpack_require__("./node_modules/material-ui/styles/MuiThemeProvider.js");
+	const getMuiTheme_1 = __webpack_require__("./node_modules/material-ui/styles/getMuiTheme.js");
 	const HeaderMenu_1 = __webpack_require__("./src/components/HeaderMenu/HeaderMenu.tsx");
 	const SidebarMenu_1 = __webpack_require__("./src/components/SidebarMenu/SidebarMenu.tsx");
 	const semantic_ui_react_1 = __webpack_require__("./node_modules/semantic-ui-react/dist/commonjs/index.js");
@@ -5695,6 +5696,12 @@ webpackJsonp([1,2],{
 	__webpack_require__("./src/styles/semantic.min.css");
 	__webpack_require__("./node_modules/prismjs/themes/prism-okaidia.css");
 	exports.menuItems = [{ name: "Home", path: "/", exact: true, icon: "home", inverted: true }, { name: "Account", path: "/account/", exact: true, icon: "info circle" }, { name: "Documentation", path: "/docs/", exact: false, icon: "newspaper" }, { name: "Support", path: "/support/", exact: false, icon: "newspaper" }];
+	const muiTheme = getMuiTheme_1.default({}, {
+	    avatar: {
+	        borderColor: null
+	    },
+	    userAgent: 'all'
+	});
 	class DefaultLayout extends React.PureComponent {
 	    constructor() {
 	        super(...arguments);
@@ -5708,25 +5715,10 @@ webpackJsonp([1,2],{
 	        const isHome = pathname === "/";
 	        // Inject `toggleSidebar` function into children
 	        const children = React.Children.map(this.props.children(), child => React.cloneElement(child, { toggleSidebar: this.toggleSidebar.bind(this) }));
-	        return React.createElement(semantic_ui_react_1.Sidebar.Pushable, { as: semantic_ui_react_1.Segment }, React.createElement(SidebarMenu_1.default, { Link: gatsby_link_1.default, pathname: pathname, items: exports.menuItems, visible: this.state.sidebarVisible }), React.createElement(semantic_ui_react_1.Sidebar.Pusher, { style: { minHeight: "100vh" } }, isHome ? "" : React.createElement(HeaderMenu_1.default, { Link: gatsby_link_1.default, pathname: pathname, items: exports.menuItems, toggleSidebar: this.toggleSidebar.bind(this) }), React.createElement(MuiThemeProvider_1.default, null, React.createElement("div", { style: { paddingBottom: 60 } }, children))));
+	        return React.createElement(semantic_ui_react_1.Sidebar.Pushable, { as: semantic_ui_react_1.Segment }, React.createElement(SidebarMenu_1.default, { Link: gatsby_link_1.default, pathname: pathname, items: exports.menuItems, visible: this.state.sidebarVisible }), React.createElement(semantic_ui_react_1.Sidebar.Pusher, { style: { minHeight: "100vh" } }, isHome ? "" : React.createElement(HeaderMenu_1.default, { Link: gatsby_link_1.default, pathname: pathname, items: exports.menuItems, toggleSidebar: this.toggleSidebar.bind(this) }), React.createElement(MuiThemeProvider_1.default, { muiTheme: muiTheme }, React.createElement("div", { style: { paddingBottom: 60 } }, children))));
 	    }
 	}
 	exports.default = DefaultLayout;
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?{\"plugins\":[\"/Users/madisonkerndt/Documents/workspace/gatsby-web/node_modules/gatsby/dist/utils/babel-plugin-extract-graphql.js\"]}!./node_modules/ts-loader/index.js?{\"compilerOptions\":{\"target\":\"esnext\",\"experimentalDecorators\":true,\"jsx\":\"react\",\"module\":\"commonjs\"},\"transpileOnly\":true}!./src/pages/index.tsx":
-/***/ (function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", { value: true });
-	const React = __webpack_require__("./node_modules/react/react.js");
-	const gatsby_link_1 = __webpack_require__("./node_modules/gatsby-link/index.js");
-	const HeaderMenu_1 = __webpack_require__("./src/components/HeaderMenu/HeaderMenu.tsx");
-	const layouts_1 = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"plugins\":[\"/Users/madisonkerndt/Documents/workspace/gatsby-web/node_modules/gatsby/dist/utils/babel-plugin-extract-graphql.js\"]}!./node_modules/ts-loader/index.js?{\"compilerOptions\":{\"target\":\"esnext\",\"experimentalDecorators\":true,\"jsx\":\"react\",\"module\":\"commonjs\"},\"transpileOnly\":true}!./src/layouts/index.tsx");
-	const semantic_ui_react_1 = __webpack_require__("./node_modules/semantic-ui-react/dist/commonjs/index.js");
-	exports.default = props => React.createElement("div", null, React.createElement(semantic_ui_react_1.Segment, { vertical: true, inverted: true, textAlign: "center", className: "masthead" }, React.createElement(HeaderMenu_1.default, { Link: gatsby_link_1.default, pathname: props.location.pathname, items: layouts_1.menuItems, inverted: true, toggleSidebar: props.toggleSidebar }), React.createElement(semantic_ui_react_1.Container, { text: true }, React.createElement(semantic_ui_react_1.Header, { inverted: true, as: "h1" }, "Gatsby 1.0 - Starter kit"), React.createElement(semantic_ui_react_1.Header, { inverted: true, as: "h2" }, "Typescript - Jest - Semantic UI"), React.createElement("button", null, "Get started!"))));
 
 /***/ }),
 
@@ -5810,4 +5802,4 @@ webpackJsonp([1,2],{
 /***/ })
 
 });
-//# sourceMappingURL=page-component---src-pages-index-tsx-c3787194e6c0c3eaf184.js.map
+//# sourceMappingURL=layout-component---index-85c0047e2e6678dea2d4.js.map
