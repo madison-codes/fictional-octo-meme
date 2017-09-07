@@ -69,12 +69,12 @@ webpackJsonp([27],{
 	
 	exports.json = {
 	  "offline-plugin-app-shell-fallback.json": __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---offline-plugin-app-shell-fallback!./.cache/json/offline-plugin-app-shell-fallback.json"),
-	  "blog-2017-05-02-article-2.json": __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---blog-2017-05-02-article-2!./.cache/json/blog-2017-05-02-article-2.json"),
-	  "blog-2017-05-02-article-1.json": __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---blog-2017-05-02-article-1!./.cache/json/blog-2017-05-02-article-1.json"),
 	  "blog-2017-04-18-welcoming.json": __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---blog-2017-04-18-welcoming!./.cache/json/blog-2017-04-18-welcoming.json"),
-	  "blog-tags-test.json": __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---blog-tags-test!./.cache/json/blog-tags-test.json"),
+	  "blog-2017-05-02-article-1.json": __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---blog-2017-05-02-article-1!./.cache/json/blog-2017-05-02-article-1.json"),
+	  "blog-2017-05-02-article-2.json": __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---blog-2017-05-02-article-2!./.cache/json/blog-2017-05-02-article-2.json"),
 	  "blog-tags-starter.json": __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---blog-tags-starter!./.cache/json/blog-tags-starter.json"),
 	  "blog-tags-gatsby.json": __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---blog-tags-gatsby!./.cache/json/blog-tags-gatsby.json"),
+	  "blog-tags-test.json": __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---blog-tags-test!./.cache/json/blog-tags-test.json"),
 	  "blog-page-1.json": __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---blog-page-1!./.cache/json/blog-page-1.json"),
 	  "404.json": __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---404!./.cache/json/404.json"),
 	  "about.json": __webpack_require__("./node_modules/gatsby/dist/loaders/gatsby-module-loader/index.js?name=path---about!./.cache/json/about.json"),
@@ -723,7 +723,7 @@ webpackJsonp([27],{
 	    pages = newPages;
 	    var pathPrefix = "";
 	    if (true) {
-	      pathPrefix = ("/fictional-octo-meme");
+	      pathPrefix = (undefined);
 	    }
 	    findPage = (0, _findPage2.default)(newPages, pathPrefix);
 	  },
@@ -926,8 +926,8 @@ webpackJsonp([27],{
 		},
 		{
 			"componentChunkName": "page-component---src-templates-blog-post-tsx",
-			"jsonName": "blog-2017-05-02-article-2.json",
-			"path": "/blog/2017-05-02--article-2/"
+			"jsonName": "blog-2017-04-18-welcoming.json",
+			"path": "/blog/2017-04-18--welcoming/"
 		},
 		{
 			"componentChunkName": "page-component---src-templates-blog-post-tsx",
@@ -936,13 +936,8 @@ webpackJsonp([27],{
 		},
 		{
 			"componentChunkName": "page-component---src-templates-blog-post-tsx",
-			"jsonName": "blog-2017-04-18-welcoming.json",
-			"path": "/blog/2017-04-18--welcoming/"
-		},
-		{
-			"componentChunkName": "page-component---src-templates-tags-page-tsx",
-			"jsonName": "blog-tags-test.json",
-			"path": "/blog/tags/test/"
+			"jsonName": "blog-2017-05-02-article-2.json",
+			"path": "/blog/2017-05-02--article-2/"
 		},
 		{
 			"componentChunkName": "page-component---src-templates-tags-page-tsx",
@@ -953,6 +948,11 @@ webpackJsonp([27],{
 			"componentChunkName": "page-component---src-templates-tags-page-tsx",
 			"jsonName": "blog-tags-gatsby.json",
 			"path": "/blog/tags/gatsby/"
+		},
+		{
+			"componentChunkName": "page-component---src-templates-tags-page-tsx",
+			"jsonName": "blog-tags-test.json",
+			"path": "/blog/tags/test/"
 		},
 		{
 			"componentChunkName": "page-component---src-templates-blog-page-tsx",
@@ -1633,4 +1633,4 @@ webpackJsonp([27],{
 /***/ })
 
 });
-//# sourceMappingURL=app-a94ecc507da9bf9f7064.js.map
+//# sourceMappingURL=app-329bb521af63483ba852.js.map

@@ -3904,6 +3904,158 @@ webpackJsonp([3],{
 
 /***/ }),
 
+/***/ "./node_modules/material-ui/svg-icons/action/grade.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__("./node_modules/react/react.js");
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _pure = __webpack_require__("./node_modules/recompose/pure.js");
+	
+	var _pure2 = _interopRequireDefault(_pure);
+	
+	var _SvgIcon = __webpack_require__("./node_modules/material-ui/SvgIcon/index.js");
+	
+	var _SvgIcon2 = _interopRequireDefault(_SvgIcon);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var ActionGrade = function ActionGrade(props) {
+	  return _react2.default.createElement(
+	    _SvgIcon2.default,
+	    props,
+	    _react2.default.createElement('path', { d: 'M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z' })
+	  );
+	};
+	ActionGrade = (0, _pure2.default)(ActionGrade);
+	ActionGrade.displayName = 'ActionGrade';
+	ActionGrade.muiName = 'SvgIcon';
+	
+	exports.default = ActionGrade;
+
+/***/ }),
+
+/***/ "./node_modules/material-ui/svg-icons/content/drafts.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__("./node_modules/react/react.js");
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _pure = __webpack_require__("./node_modules/recompose/pure.js");
+	
+	var _pure2 = _interopRequireDefault(_pure);
+	
+	var _SvgIcon = __webpack_require__("./node_modules/material-ui/SvgIcon/index.js");
+	
+	var _SvgIcon2 = _interopRequireDefault(_SvgIcon);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var ContentDrafts = function ContentDrafts(props) {
+	  return _react2.default.createElement(
+	    _SvgIcon2.default,
+	    props,
+	    _react2.default.createElement('path', { d: 'M21.99 8c0-.72-.37-1.35-.94-1.7L12 1 2.95 6.3C2.38 6.65 2 7.28 2 8v10c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2l-.01-10zM12 13L3.74 7.84 12 3l8.26 4.84L12 13z' })
+	  );
+	};
+	ContentDrafts = (0, _pure2.default)(ContentDrafts);
+	ContentDrafts.displayName = 'ContentDrafts';
+	ContentDrafts.muiName = 'SvgIcon';
+	
+	exports.default = ContentDrafts;
+
+/***/ }),
+
+/***/ "./node_modules/material-ui/svg-icons/content/inbox.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__("./node_modules/react/react.js");
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _pure = __webpack_require__("./node_modules/recompose/pure.js");
+	
+	var _pure2 = _interopRequireDefault(_pure);
+	
+	var _SvgIcon = __webpack_require__("./node_modules/material-ui/SvgIcon/index.js");
+	
+	var _SvgIcon2 = _interopRequireDefault(_SvgIcon);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var ContentInbox = function ContentInbox(props) {
+	  return _react2.default.createElement(
+	    _SvgIcon2.default,
+	    props,
+	    _react2.default.createElement('path', { d: 'M19 3H4.99c-1.11 0-1.98.89-1.98 2L3 19c0 1.1.88 2 1.99 2H19c1.1 0 2-.9 2-2V5c0-1.11-.9-2-2-2zm0 12h-4c0 1.66-1.35 3-3 3s-3-1.34-3-3H4.99V5H19v10z' })
+	  );
+	};
+	ContentInbox = (0, _pure2.default)(ContentInbox);
+	ContentInbox.displayName = 'ContentInbox';
+	ContentInbox.muiName = 'SvgIcon';
+	
+	exports.default = ContentInbox;
+
+/***/ }),
+
+/***/ "./node_modules/material-ui/svg-icons/content/send.js":
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__("./node_modules/react/react.js");
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _pure = __webpack_require__("./node_modules/recompose/pure.js");
+	
+	var _pure2 = _interopRequireDefault(_pure);
+	
+	var _SvgIcon = __webpack_require__("./node_modules/material-ui/SvgIcon/index.js");
+	
+	var _SvgIcon2 = _interopRequireDefault(_SvgIcon);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var ContentSend = function ContentSend(props) {
+	  return _react2.default.createElement(
+	    _SvgIcon2.default,
+	    props,
+	    _react2.default.createElement('path', { d: 'M2.01 21L23 12 2.01 3 2 10l15 2-15 2z' })
+	  );
+	};
+	ContentSend = (0, _pure2.default)(ContentSend);
+	ContentSend.displayName = 'ContentSend';
+	ContentSend.muiName = 'SvgIcon';
+	
+	exports.default = ContentSend;
+
+/***/ }),
+
 /***/ "./node_modules/material-ui/svg-icons/navigation/expand-less.js":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5101,6 +5253,10 @@ webpackJsonp([3],{
 	Object.defineProperty(exports, "__esModule", { value: true });
 	const React = __webpack_require__("./node_modules/react/react.js");
 	const List_1 = __webpack_require__("./node_modules/material-ui/List/index.js");
+	const grade_1 = __webpack_require__("./node_modules/material-ui/svg-icons/action/grade.js");
+	const inbox_1 = __webpack_require__("./node_modules/material-ui/svg-icons/content/inbox.js");
+	const drafts_1 = __webpack_require__("./node_modules/material-ui/svg-icons/content/drafts.js");
+	const send_1 = __webpack_require__("./node_modules/material-ui/svg-icons/content/send.js");
 	const gatsby_link_1 = __webpack_require__("./node_modules/gatsby-link/index.js");
 	class DocsNav extends React.Component {
 	    constructor() {
@@ -5120,7 +5276,7 @@ webpackJsonp([3],{
 	        };
 	    }
 	    render() {
-	        return React.createElement("div", { id: 'docs-nav' }, React.createElement(List_1.List, null, React.createElement(List_1.ListItem, { primaryText: "Home", containerElement: React.createElement(gatsby_link_1.default, { to: "/support/" }) })));
+	        return React.createElement("div", { id: 'docs-nav' }, React.createElement(List_1.List, null, React.createElement(List_1.ListItem, { primaryText: "Home", containerElement: React.createElement(gatsby_link_1.default, { to: "/support/" }) }), React.createElement(List_1.ListItem, { primaryText: "Inbox", leftIcon: React.createElement(inbox_1.default, null), initiallyOpen: true, primaryTogglesNestedList: true, nestedItems: [React.createElement(List_1.ListItem, { key: 1, primaryText: "Starred", leftIcon: React.createElement(grade_1.default, null) }), React.createElement(List_1.ListItem, { key: 2, primaryText: "Sent Mail", leftIcon: React.createElement(send_1.default, null), disabled: true, nestedItems: [React.createElement(List_1.ListItem, { key: 1, primaryText: "Drafts", leftIcon: React.createElement(drafts_1.default, null) })] }), React.createElement(List_1.ListItem, { key: 3, primaryText: "Inbox", leftIcon: React.createElement(inbox_1.default, null), open: this.state.open, onNestedListToggle: this.handleNestedListToggle, nestedItems: [React.createElement(List_1.ListItem, { key: 1, primaryText: "Drafts", leftIcon: React.createElement(drafts_1.default, null) })] })] })));
 	    }
 	}
 	exports.default = DocsNav;
@@ -5145,4 +5301,4 @@ webpackJsonp([3],{
 /***/ })
 
 });
-//# sourceMappingURL=page-component---src-pages-docs-tsx-f8b6e333f278f83cb1f3.js.map
+//# sourceMappingURL=page-component---src-pages-docs-tsx-0faeaab2b72f488ec845.js.map

@@ -90,7 +90,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/fictional-octo-meme/";
+/******/ 	__webpack_require__.p = "undefined/";
 /******/
 /******/ 	// expose the chunks object
 /******/ 	__webpack_require__.s = installedChunks;
@@ -4127,7 +4127,7 @@
 	
 	var pathPrefix = "";
 	if (true) {
-	  pathPrefix = ("/fictional-octo-meme");
+	  pathPrefix = (undefined);
 	}
 	
 	var GatsbyLink = function (_React$Component) {
